@@ -1,0 +1,22 @@
+# Memory Index
+
+- [Mbriyo deployment](reference_mbriyo_deploy.md) — Repo, hosting (Vercel), git auth (SSH), deploy steps, known issues with pushing from Claude Code
+- [Always verify AI-generated claims](feedback_verify_claims.md) — Never include comparative/aggregated claims in drafts without primary source verification; caught fabricated market cap comparison
+- [The Pulse project status](project_pulse_status.md) — Weekly AI self-assessment survey on vasteams.com; next: deploy, email reminders, launch essay
+- [No serif fonts](feedback_no_serif.md) — Always use sans-serif in all UIs
+- [Creative review process](feedback_carousel_process.md) — Lead with opinionated rewrite in first pass, don't iterate incrementally; pull in Moveo positioning + ad best practices upfront
+- [VC evaluation depth](feedback_vc_evaluation_depth.md) — Company evals need real depth: stress-test AI claims, challenge fit, don't accept surface-level traction as "High"
+- [Design direction](feedback_design_direction.md) — Light/airy, gradient cards, hand-drawn visuals, 18px+ body text. Not dark/hacker, not report/PowerPoint.
+- [Save files in project folders](feedback_file_locations.md) — Don't default to Desktop; use existing project folders (e.g. ~/Documents/moveo/)
+- [No matplotlib-in-PowerPoint charts](feedback_no_pptx_charts.md) — Don't generate data viz via matplotlib and embed in PPT; output looks amateurish. Use HTML/SVG or design specs.
+- [SVG draw order matters](feedback_svg_draw_order.md) — Draw reference lines BEFORE data curves in SVG; got stuck 5x on zero-line-over-green-line bug
+- [User roles](user_roles.md) — five hats (MMA Global SVP, Moveo CMO, Mbriyo, Vas Collective, Personal); charters at ~/Documents/{role}/CLAUDE.md
+- [Check filesystem first](feedback_check_filesystem_first.md) — never ask about roles/employer; read ~/Documents/{role}/CLAUDE.md instead
+- [KB workflow project](project_kb_workflow.md) — Obsidian LLM-wiki build in progress; MMA seed; plan at ~/.claude/plans/hidden-baking-gadget.md
+- [Environment & paths](reference_environment.md) — vault at ~/Documents/Obsidian Vault; OneDrive MMA corpus; installed MCPs
+- [Survey analysis to exec presentation process](reference_survey_analysis_process.md) — 7-phase workflow: consolidate SurveyMonkey data, findings doc, top findings, segmentation (L/L), secondary cuts with sig testing, paradox analysis, interactive reveal.js deck. CMO-grade slide design rules included.
+- [Never use em-dashes](feedback_no_em_dashes.md) — Zero em-dashes in any prose for Vas. Use comma, period, colon, or restructure. Stricter than the global "one per paragraph" rule.
+- [Quality standards (universal baseline)](feedback_quality_standards.md) — Source-first verification, read URLs before commenting, strip AI-writing patterns, self-review before showing. Floor not ceiling.
+- [Visual creation process](process_figma_visuals.md) — Presentation visuals via Figma MCP, not PPT/matplotlib. Full process in Obsidian: Processes/Visual Creation for Presentations.md
+- [Productivity tracker](reference_productivity_tracker.md) — ~/.claude/productivity/ logs prompts/turns/tools/tokens/ratings; hooks auto-log; prompts for 1-5 rating every 15 min
+- [No chip/pill labels on slides](feedback_no_chip_pills.md) — Never use rounded-pill labels (border-radius 999px, pastel backgrounds, uppercase) on presentation slides; use gold vertical bar + bold text instead
