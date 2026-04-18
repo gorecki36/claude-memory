@@ -13,5 +13,6 @@ originSessionId: c4062990-49dc-480d-bdeb-5c6227dbe6b2
 - Moveo work → `~/Documents/moveo/...`
 - Marketing Embeddings → `~/Documents/marketing-embeddings/...`
 - Mbriyo → `~/Documents/mbriyo/...`
+- V2 (son's company) → `~/Documents/v2/...`
 - Personal projects → `~/Documents/personal/...` or the specific `~/projects/` subdir
 - If the right folder doesn't exist for the work, ask before creating; don't fall back to Desktop
