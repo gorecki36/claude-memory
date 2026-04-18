@@ -14,7 +14,8 @@
 - [Check filesystem first](feedback_check_filesystem_first.md) — never ask about roles/employer; read ~/Documents/{role}/CLAUDE.md instead
 - [KB workflow project](project_kb_workflow.md) — Obsidian LLM-wiki build in progress; MMA seed; plan at ~/.claude/plans/hidden-baking-gadget.md
 - [Environment & paths](reference_environment.md) — vault at ~/Documents/Obsidian Vault; OneDrive MMA corpus; installed MCPs
-- [Survey analysis to exec presentation process](reference_survey_analysis_process.md) — 7-phase workflow: consolidate SurveyMonkey data, findings doc, top findings, segmentation (L/L), secondary cuts with sig testing, paradox analysis, interactive reveal.js deck. CMO-grade slide design rules included.
+- [Survey analysis to exec presentation process](reference_survey_analysis_process.md) — 7-phase workflow: consolidate SurveyMonkey data, findings doc, top findings, segmentation (L/L), secondary cuts with sig testing, paradox analysis, interactive reveal.js deck.
+- [Research presentation process (transferable)](reference_research_presentation_process.md) — How to analyze data (segment, index, test paradoxes), structure narrative (setup to close), write headlines (insight not description, peer language, present tense), design slides (use the space, pin headlines, gold+black, no pills, no em-dashes).
 - [Never use em-dashes](feedback_no_em_dashes.md) — Zero em-dashes in any prose for Vas. Use comma, period, colon, or restructure. Stricter than the global "one per paragraph" rule.
 - [Quality standards (universal baseline)](feedback_quality_standards.md) — Source-first verification, read URLs before commenting, strip AI-writing patterns, self-review before showing. Floor not ceiling.
 - [Visual creation process](process_figma_visuals.md) — Presentation visuals via Figma MCP, not PPT/matplotlib. Full process in Obsidian: Processes/Visual Creation for Presentations.md
