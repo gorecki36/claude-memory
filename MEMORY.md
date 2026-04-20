@@ -21,3 +21,4 @@
 - [Visual creation process](process_figma_visuals.md) — Presentation visuals via Figma MCP, not PPT/matplotlib. Full process in Obsidian: Processes/Visual Creation for Presentations.md
 - [Productivity tracker](reference_productivity_tracker.md) — ~/.claude/productivity/ logs prompts/turns/tools/tokens/ratings; hooks auto-log; prompts for 1-5 rating every 15 min
 - [No chip/pill labels on slides](feedback_no_chip_pills.md) — Never use rounded-pill labels (border-radius 999px, pastel backgrounds, uppercase) on presentation slides; use gold vertical bar + bold text instead
+- [V2 CFO App](project_v2_cfo_app.md) — Full-stack CFO app for son's DTC brand; scaffolded, demoed, zipped for handoff at ~/Documents/v2/
