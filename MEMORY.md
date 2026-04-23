@@ -23,3 +23,4 @@
 - [No chip/pill labels on slides](feedback_no_chip_pills.md) — Never use rounded-pill labels (border-radius 999px, pastel backgrounds, uppercase) on presentation slides; use gold vertical bar + bold text instead
 - [V2 CFO App](project_v2_cfo_app.md) — Full-stack CFO app for son's DTC brand; scaffolded, demoed, zipped for handoff at ~/Documents/v2/
 - [Split long headlines](feedback_headline_formatting.md) — Always break slide headlines into two rows at natural pause points; don't cram into one line
+- [reveal.js slide layout](reference_revealjs_centering.md) — Pin header Y & center content on every slide; avoid display:flex on sections (reveal's JS-set inline top + display:none logic fights it)
