@@ -13,7 +13,8 @@ originSessionId: cbf017bc-7b94-4ca1-ab1e-1649ef9d6205
 
 **Installed MCPs (as of 2026-04-15):**
 - Data sources: Fireflies (meeting transcripts), Gmail, Google Drive, Google Calendar, Notion, Slack, MS365 (covers OneDrive / Outlook / Teams), Obsidian
-- Build/deploy: Vercel, Figma, Parallel Search
+- Build/deploy: Vercel
+- Design: Figma
 - Obsidian MCP supports read/write/search/tags/frontmatter — use it instead of shell file ops for vault work
 
 **Mbriyo has a `/session-notes` pattern** — at the start of each Mbriyo conversation, check `~/Documents/mbriyo/notes/` for recent session notes.
