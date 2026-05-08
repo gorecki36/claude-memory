@@ -25,3 +25,4 @@
 - [Split long headlines](feedback_headline_formatting.md) — Always break slide headlines into two rows at natural pause points; don't cram into one line
 - [reveal.js slide layout](reference_revealjs_centering.md) — Pin header Y & center content on every slide; avoid display:flex on sections (reveal's JS-set inline top + display:none logic fights it)
 - [Proactive vault saves](feedback_vault_proactive.md) — Propose vault saves when content is vault-worthy; check in every ~30 min or at natural breakpoints
+- [Moveo team](project_moveo_team.md) — Moveo CEO is Panos Karagiannis (not Karachalios)
