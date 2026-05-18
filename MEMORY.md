@@ -18,6 +18,7 @@
 - [Research presentation process (transferable)](reference_research_presentation_process.md) — How to analyze data (segment, index, test paradoxes), structure narrative (setup to close), write headlines (insight not description, peer language, present tense), design slides (use the space, pin headlines, gold+black, no pills, no em-dashes).
 - [Never use em-dashes](feedback_no_em_dashes.md) — Zero em-dashes in any prose for Vas. Use comma, period, colon, or restructure. Stricter than the global "one per paragraph" rule.
 - [Quality standards (universal baseline)](feedback_quality_standards.md) — Source-first verification, read URLs before commenting, strip AI-writing patterns, self-review before showing. Floor not ceiling.
+- [Narrative grounding](feedback_narrative_grounding.md) — Don't let framing run ahead of evidence; lagging indicators aren't pattern interrupts; verify methodology before characterizing data sources
 - [Visual creation process](process_figma_visuals.md) — Presentation visuals via Figma MCP, not PPT/matplotlib. Full process in Obsidian: Processes/Visual Creation for Presentations.md
 - [Productivity tracker](reference_productivity_tracker.md) — ~/.claude/productivity/ logs prompts/turns/tools/tokens/ratings; hooks auto-log; prompts for 1-5 rating every 15 min
 - [No chip/pill labels on slides](feedback_no_chip_pills.md) — Never use rounded-pill labels (border-radius 999px, pastel backgrounds, uppercase) on presentation slides; use gold vertical bar + bold text instead
