@@ -27,3 +27,4 @@
 - [reveal.js slide layout](reference_revealjs_centering.md) — Pin header Y & center content on every slide; avoid display:flex on sections (reveal's JS-set inline top + display:none logic fights it)
 - [Proactive vault saves](feedback_vault_proactive.md) — Propose vault saves when content is vault-worthy; check in every ~30 min or at natural breakpoints
 - [Moveo team](project_moveo_team.md) — Moveo CEO is Panos Karagiannis (not Karachalios)
+- [No auth on public pages](feedback_no_auth_on_public_pages.md) — Never put auth middleware on public pages; caused 504 site outage when Supabase was slow; always fail open
