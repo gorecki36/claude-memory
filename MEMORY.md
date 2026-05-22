@@ -30,3 +30,4 @@
 - [No auth on public pages](feedback_no_auth_on_public_pages.md) — Never put auth middleware on public pages; caused 504 site outage when Supabase was slow; always fail open
 - [Supabase free tier pauses](reference_supabase_free_tier.md) — Auto-pauses after 7 days inactivity; project zbhajokmkznwwcklypdg; keep-alive cron needed
 - [Plain headlines, no "quiet"](feedback_plain_headlines.md) — Slide headlines must be plain/descriptive, never clever; the word "quiet" is banned outright
+- [Stop hook stderr rule](feedback_stop_hook_stderr.md) — Shell Stop hooks must echo blocking feedback to stderr (`>&2`), not stdout, or harness shows "[<path>]: No stderr output" noise every turn
