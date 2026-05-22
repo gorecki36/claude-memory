@@ -2,6 +2,7 @@
 
 - [Mbriyo deployment](reference_mbriyo_deploy.md) — Repo, hosting (Vercel), git auth (SSH), deploy steps, known issues with pushing from Claude Code
 - [Always verify AI-generated claims](feedback_verify_claims.md) — Never include comparative/aggregated claims in drafts without primary source verification; caught fabricated market cap comparison
+- [Preserve scope when paraphrasing findings](feedback_preserve_scope.md) — Carry category/geography/time-period qualifiers from the paper into CMO paraphrases; don't let paraphrase silently upgrade scope
 - [The Pulse project status](project_pulse_status.md) — Weekly AI self-assessment survey on vasteams.com; next: deploy, email reminders, launch essay
 - [No serif fonts](feedback_no_serif.md) — Always use sans-serif in all UIs
 - [Creative review process](feedback_carousel_process.md) — Lead with opinionated rewrite in first pass, don't iterate incrementally; pull in Moveo positioning + ad best practices upfront
