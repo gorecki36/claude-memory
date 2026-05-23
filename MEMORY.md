@@ -34,3 +34,4 @@
 - [Plain headlines, no "quiet"](feedback_plain_headlines.md) — Slide headlines must be plain/descriptive, never clever; the word "quiet" is banned outright
 - [Stop hook stderr rule](feedback_stop_hook_stderr.md) — Shell Stop hooks must echo blocking feedback to stderr (`>&2`), not stdout, or harness shows "[<path>]: No stderr output" noise every turn
 - [Disclose incomplete review](feedback_disclose_incomplete_review.md) — Never recommend without disclosing how many options were actually reviewed; caught recommending ESOMAR category after seeing 2 of 13
+- [Output briefs as HTML, not Markdown](feedback_output_format_html.md) — Standalone deliverable files (briefs, research notes) should be styled HTML with inline CSS. Vault notes and chat responses stay Markdown.
