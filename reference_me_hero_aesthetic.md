@@ -7,15 +7,31 @@ metadata:
   originSessionId: e4af278f-1234-4b05-b0a9-f995e0a8c654
 ---
 
-The actual ME hero image aesthetic in production on marketingembeddings.com:
+Marketing Embeddings uses TWO distinct hero aesthetics depending on the content layer:
 
-- **Medium**: painterly editorial illustration in heavy ink-and-brush style. Visible gestural brushstrokes, impasto texture, canvas-like background grain. Generated via Nano Banana 2 (`scripts/generate-hero.py` in the ME folder).
-- **Palette**: monochrome cream-whites and bone-whites on deep charcoal black background. ONE subtle warm gold-orange accent on a single element (the "Embeddings" logo color, around #C6904A).
-- **Composition**: single dramatic subject filling most of the upper frame, often with a tiny human silhouette at the bottom for dramatic scale. Movie-poster framing. Single concept per image.
-- **Reference style**: Yuko Shimizu, Sergio Toppi, old movie posters painted in ink wash. NOT Sharpie line drawings. NOT New Yorker line illustration. NOT photorealistic.
-- **Vas's reference image** (provided 2026-06-02): a tiny silhouetted figure standing on a rise, looking up at a massive billowing cloud painted in cream brushwork against charcoal, with a single thin gold line near the figure's feet.
+**Aesthetic 1 — Painterly ink-and-brush (Big Picture / lead pieces)**
+- Heavy gestural brushwork, impasto texture, canvas-like background grain
+- Cream-whites and bone-whites painted forms on deep charcoal black background
+- Single subtle warm gold-orange accent (~#C6904A, matching the "Embeddings" logo)
+- Single dramatic subject filling most of the upper frame, with a tiny human silhouette at the bottom for dramatic scale (~2-3% of image height)
+- Movie-poster framing
+- Reference style: Yuko Shimizu, Sergio Toppi, old movie posters painted in ink wash
+- Reference image provided by Vas 2026-06-02: tiny figure on a rise looking up at a massive billowing cloud, single thin gold line near the feet
+- Working examples: `2026-04-27-gauge.json`, `2026-05-18-dissolving-walls.json`, `2026-06-02-looming-bills.json`
 
-**The style guide doc contradiction**: `hero-image-style-guide-v2.docx` describes a totally different aesthetic (Scott Galloway Sharpie + New Yorker single-concept cover, black ink on cream, hazel green accent, hand-drawn, "No Midjourney. No DALL-E. Non-negotiable"). That doc is not being executed in production. The live site uses the painterly ink-and-brush aesthetic above. When in doubt, **the live site is ground truth, not the doc**.
+**Aesthetic 2 — Sharpie hand-drawn (Policy Corner / sidebar pieces)**
+- Bold black Sharpie marker line drawing on clean cream paper (#F2EDE3)
+- Single rust-orange terracotta accent (~#A04830) on one element only
+- Multi-stroke slightly imperfect outline, visible felt-tip texture, hand-drawn quality
+- Single object, generous white space (25%+ margin), New Yorker single-concept cover composition
+- No painterly textures, no shadows, no gradients
+- Reference image provided by Vas 2026-06-02: magnifying glass with rust-orange concentric rings inside the disc, black Sharpie outline on cream
+- Reference style: Scott Galloway's No Mercy / No Malice + New Yorker single-concept covers
+- This aesthetic matches `hero-image-style-guide-v2.docx`. Style guide and live site DO NOT conflict; they describe different image layers.
+
+**Important: pick the aesthetic to match the content layer:**
+- Big Picture / lead essay → Aesthetic 1 (painterly)
+- Policy Corner / sidebar / shorter pieces → Aesthetic 2 (Sharpie)
 
 **How to apply for new heroes:**
 - Start prompts with "Painterly editorial illustration in heavy ink-and-brush style with visible gestural brushwork."
