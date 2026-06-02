@@ -39,3 +39,4 @@
 - [No stale "just"](feedback_no_stale_just.md) — Never use "just" with a verb unless the event actually happened in the last ~7 days. "The ruling that just made X discoverable" is wrong if the ruling was months ago.
 - [Structural fit check before adding](feedback_structural_fit_check.md) — When user asks to add an item to a section, verify it structurally fits the section's category. If not, flag the mismatch and propose an alternate location. Never bridge with half-accurate framings.
 - [Don't stop mid-task](feedback_dont_stop_midtask.md) — On "full/complete/everything" tasks, execute end-to-end without disambiguation gates or waiting for "open". Each interruption feels like quitting mid-task.
+- [No meta-framing sentences](feedback_no_meta_framing.md) — Never write "The sharper objection is X" / "The deeper issue is Y" / "What's really going on is Z". Strip rhetorical scaffolding, make the point directly.
