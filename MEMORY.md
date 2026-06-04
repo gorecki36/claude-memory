@@ -43,3 +43,4 @@
 - [Don't stop mid-task](feedback_dont_stop_midtask.md) — On "full/complete/everything" tasks, execute end-to-end without disambiguation gates or waiting for "open". Each interruption feels like quitting mid-task.
 - [No meta-framing sentences](feedback_no_meta_framing.md) — Never write "The sharper objection is X" / "The deeper issue is Y" / "What's really going on is Z". Strip rhetorical scaffolding, make the point directly.
 - [Diff before commit](feedback_diff_before_commit.md) — Always `git diff <file>` before `git add` + commit; `git status` showing "one modified file" doesn't mean "one small change." Caught shipping Vas's unfinished Variable-5 work to vasteams.com prod under a "add GA" commit message.
+- [Use the full page width](feedback_use_full_page_width.md) — When adding image/visual to a page with text, default to a two-column layout filling the page width. Never stack image-then-text in one narrow column with the other half empty. Recurring correction.
