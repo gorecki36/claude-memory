@@ -11,6 +11,7 @@
 - [Design direction](feedback_design_direction.md) — Light/airy, gradient cards, hand-drawn visuals, 18px+ body text. Not dark/hacker, not report/PowerPoint.
 - [Save files in project folders](feedback_file_locations.md) — Don't default to Desktop; use existing project folders (e.g. ~/Documents/moveo/)
 - [Specify full file paths + version, don't overwrite](feedback_specify_file_paths.md) — Report full absolute path, never "the doc"; name both when folders are confusable (awards/reddit vs reddit). Save edits as a NEW versioned file (1-00 → 1-01) so Vas can compare; never overwrite a review deliverable in place (a .bak won't open in Word)
+- [Don't drop the top risk](feedback_dont_drop_top_risk.md) — When Vas approves a subset of edits, don't silently ship only those and bury the biggest risk in a "still open" footnote; surface the highest-risk open item at handoff and force the decision. Scored 1/5 for dropping the 27-month fix.
 - [No matplotlib-in-PowerPoint charts](feedback_no_pptx_charts.md) — Don't generate data viz via matplotlib and embed in PPT; output looks amateurish. Use HTML/SVG or design specs.
 - [SVG draw order matters](feedback_svg_draw_order.md) — Draw reference lines BEFORE data curves in SVG; got stuck 5x on zero-line-over-green-line bug
 - [User roles](user_roles.md) — five hats (MMA Global SVP, Moveo CMO, Mbriyo, Vas Collective, Personal); charters at ~/Documents/{role}/CLAUDE.md
