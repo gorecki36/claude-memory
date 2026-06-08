@@ -10,6 +10,7 @@
 - [VC evaluation depth](feedback_vc_evaluation_depth.md) — Company evals need real depth: stress-test AI claims, challenge fit, don't accept surface-level traction as "High"
 - [Design direction](feedback_design_direction.md) — Light/airy, gradient cards, hand-drawn visuals, 18px+ body text. Not dark/hacker, not report/PowerPoint.
 - [Save files in project folders](feedback_file_locations.md) — Don't default to Desktop; use existing project folders (e.g. ~/Documents/moveo/)
+- [Specify full file paths](feedback_specify_file_paths.md) — When reporting a saved/edited/created file, give the full absolute path, never "the doc"; name both when folders are confusable (awards/reddit vs reddit)
 - [No matplotlib-in-PowerPoint charts](feedback_no_pptx_charts.md) — Don't generate data viz via matplotlib and embed in PPT; output looks amateurish. Use HTML/SVG or design specs.
 - [SVG draw order matters](feedback_svg_draw_order.md) — Draw reference lines BEFORE data curves in SVG; got stuck 5x on zero-line-over-green-line bug
 - [User roles](user_roles.md) — five hats (MMA Global SVP, Moveo CMO, Mbriyo, Vas Collective, Personal); charters at ~/Documents/{role}/CLAUDE.md
