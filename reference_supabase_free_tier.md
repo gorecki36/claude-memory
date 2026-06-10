@@ -46,4 +46,12 @@ The Pulse-specific `/api/pulse/cron` (reminder emails) should NOT be relied on f
 
 For belt-and-suspenders: add an external uptime monitor (UptimeRobot free tier) that pings the heartbeat endpoint hourly and alerts on failure. Catches the case where Vercel cron itself stops firing.
 
+## 2026-06-10 warning email + hardening
+
+Supabase emailed a "scheduled to be paused — insufficient activity" warning DESPITE the daily heartbeat (cron was cut from every-6-hours to once daily on 2026-06-02 because Vercel Hobby caps crons at 1/day). Either the Vercel cron wasn't firing or 1 trivial ping/day doesn't clear Supabase's "sufficient activity" bar. Hardening applied:
+
+- **`public.heartbeat_log`** (append-only, RLS on): `pulse_heartbeat()` now also inserts a row per beat, so cron firing is auditable. Query `select beat_at from heartbeat_log order by id desc` to see exactly when beats landed.
+- **GitHub Action** `.github/workflows/supabase-keepalive.yml` (repo gorecki36/vasteams.com, commit 1d1e294): curls `https://vasteams.com/api/heartbeat` at 02:30/08:30/14:30/20:30 UTC. Together with the 21:00 UTC Vercel cron: 5 beats/day. Caveat: GitHub disables scheduled workflows after 60 days without repo commits.
+- `gh` CLI is NOT installed on this Mac; trigger/inspect Actions via the GitHub web UI.
+
 Related: [[feedback_no_auth_on_public_pages]], [[build-lessons]] pattern 4 (rules must be encoded in the build).
