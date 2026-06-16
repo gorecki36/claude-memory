@@ -20,7 +20,7 @@ originSessionId: c4062990-49dc-480d-bdeb-5c6227dbe6b2
 **Open items:**
 - Email reminder pipeline (the missing retention mechanism)
 - Launch essay for Marketing Embeddings (never published; would drive a second signup wave)
-- SECURITY: `responses` + `user_preferences` have RLS disabled; participant emails readable with the public anon key. Check how /api/pulse/submit authenticates before enabling RLS. Flagged to Vas 2026-06-11, decision pending.
+- SECURITY (RESOLVED 2026-06-16): `responses` + `user_preferences` had RLS disabled — participant data readable/writable with the public anon key. Verified ALL access to both tables goes through `createAdminSupabaseClient()` (service-role, bypasses RLS) in the `/api/pulse/*` routes; no browser component queries them directly. So enabled RLS with NO policies (`ALTER TABLE ... ENABLE ROW LEVEL SECURITY`) via migration `enable_rls_pulse_tables` — locks out anon, app unaffected. Both ERROR advisors cleared; now benign INFO `rls_enabled_no_policy`. NOTE: `pulse_heartbeat()` SECURITY DEFINER stays anon-executable on purpose — `/api/heartbeat` calls it with the anon key for keep-alive. Leaked-password protection still off (Auth dashboard toggle, minor).
 - Low DB activity triggered Supabase pause warning 2026-06-10; keep-alive hardened, see [[supabase-free-tier-auto-pauses-after-7-days]]
 
 **Why:** Flagship "Quick Build" on vasteams.com. Demonstrates AI + research positioning in action.
