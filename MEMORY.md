@@ -5,7 +5,7 @@
 - [Research before refuting](feedback_research_before_refuting.md) — Before calling any claim/product/fact false or fabricated, web-search it first; Jan 2026 cutoff is often just stale. Wrongly called real Claude Mythos + OpenAI Daybreak fabricated
 - [Preserve scope when paraphrasing findings](feedback_preserve_scope.md) — Carry category/geography/time-period qualifiers from the paper into CMO paraphrases; don't let paraphrase silently upgrade scope
 - [Compute before characterizing data](feedback_compute_before_characterizing.md) — Run the number (count, range, CV, share) before saying "only N weeks" / "barely varies" / "tiny"; caught twice in Moveo spend-lag work. Check base/feed sheets before concluding a series is short.
-- [The Pulse project status](project_pulse_status.md) — Weekly AI self-assessment survey on vasteams.com; next: deploy, email reminders, launch essay
+- [The Pulse project status](project_pulse_status.md) — Launched 2026-03-25; decayed to Vas-only weeklies since late April; reminders + launch essay never shipped; RLS open question
 - [No serif fonts](feedback_no_serif.md) — Always use sans-serif in all UIs
 - [Creative review process](feedback_carousel_process.md) — Lead with opinionated rewrite in first pass, don't iterate incrementally; pull in Moveo positioning + ad best practices upfront
 - [VC evaluation depth](feedback_vc_evaluation_depth.md) — Company evals need real depth: stress-test AI claims, challenge fit, don't accept surface-level traction as "High"
