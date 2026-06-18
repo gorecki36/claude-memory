@@ -7,6 +7,19 @@ metadata:
   originSessionId: af55e7c0-86f3-48d0-aa9e-9e323d6c293d
 ---
 
+## STATUS — RESOLVED 2026-06-18 (vasteams.com upgraded to Supabase Pro)
+
+vasteams.com's project (`zbhajokmkznwwcklypdg`, org "Vas Collective") is now on the **Pro** plan. **Pro projects do not auto-pause** — the entire free-tier pause problem is gone for this site. Accordingly, on 2026-06-18 the keep-alive apparatus was removed:
+
+- Deleted `.github/workflows/supabase-keepalive.yml`, `src/app/api/heartbeat/route.ts`, and the `/api/heartbeat` Vercel cron from `vercel.json` (kept `/api/pulse/cron`). Commit `28ddadf`, pushed to `main` (Vercel auto-deployed).
+- Dropped the now-dead DB objects: `public.pulse_heartbeat()` RPC + `public.heartbeat_log` table (migration `drop_freetier_keepalive_artifacts`).
+- `middleware.ts` fail-open auth was **kept** — it's defensive design (see [[feedback_no_auth_on_public_pages]]), not a free-tier hack.
+- Pro extras NOT enabled (overkill for this site): PITR, DB branching. Daily backups (7-day retention) are automatic on Pro.
+
+**Everything below is historical / applies only to OTHER projects still on the free tier.**
+
+---
+
 Supabase free-tier projects auto-pause after 7 days without sufficient external traffic. When paused, fetches throw `TypeError: fetch failed` (not slow, just unreachable). Restoring takes 1-3 minutes via `restore_project` MCP call.
 
 **vasteams.com Supabase project:** `zbhajokmkznwwcklypdg`
