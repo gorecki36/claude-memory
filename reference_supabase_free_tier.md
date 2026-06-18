@@ -1,6 +1,6 @@
 ---
 name: supabase-free-tier-auto-pauses-after-7-days
-description: "Supabase pauses free-tier projects after 7 days of inactivity; broke vasteams.com Pulse twice (2026-05-20, 2026-05-28). Keep-alive: daily Vercel cron + 4x/day GitHub Action hitting /api/heartbeat; beats audited in heartbeat_log."
+description: "vasteams.com Supabase (zbhajokmkznwwcklypdg) is now on the PRO plan (upgraded 2026-06-18) — no auto-pause. The free-tier keep-alive (Vercel cron + GitHub Action + /api/heartbeat + pulse_heartbeat RPC + heartbeat_log) was REMOVED 2026-06-18. The generic free-tier keep-alive pattern below still applies to OTHER free-tier projects."
 metadata: 
   node_type: memory
   type: reference
