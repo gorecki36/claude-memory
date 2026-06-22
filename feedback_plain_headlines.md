@@ -9,7 +9,7 @@ metadata:
 
 No "smart"/clever headlines on slides. State plainly what the slide shows (e.g. "Q2 leads are up; SQLs and opportunities are down"), not a cute or rhetorical phrasing. Do not turn headlines into wordplay or metaphors.
 
-Hard ban: never use the word **"quiet"** anywhere (e.g. "the channel went quiet"). Vas called this out explicitly.
+Hard ban: never use the word **"quiet"** OR ANY OF ITS FORMS (quietly, quieter, quietest, quietness, etc.) ANYWHERE, in any context, prose or headline. Vas called this out twice, the second time emphatically ("I really dont ever want to see it again"). The writing-guard hook (`~/.claude/writing-guard.py`) now blocks `\bquiet[a-z]*\b`; the original `\bquiet\b` regex missed "quietly", which is how it slipped through on the 2026-06-22 Marketing Embeddings issue.
 
 **Why:** Vas wants headlines that are immediately legible to an exec audience and reads cleverness as noise. Aligns with [[feedback-headline-formatting]] (split into two rows) and [[reference-research-presentation-process]] (headline = insight, peer language, present tense).
 
