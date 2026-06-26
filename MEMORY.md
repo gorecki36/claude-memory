@@ -1,5 +1,6 @@
 # Memory Index
 
+- [NEVER assert compliance / attribute without reading the primary source](feedback_never_assert_compliance.md) — HARD LINE. Never claim something complies with a law/code of conduct/standard/policy, and never attribute a quote to a named person/org, unless I've read the primary doc this session. False compliance claims in signed docs are a legal/criminal risk. Scored 1/5 (asserted MRS Code conformance unread)
 - [Mbriyo deployment](reference_mbriyo_deploy.md) — Repo, hosting (Vercel), git auth (SSH), deploy steps, known issues with pushing from Claude Code
 - [Always verify AI-generated claims](feedback_verify_claims.md) — Never include comparative/aggregated claims in drafts without primary source verification; caught fabricated market cap comparison
 - [Research before refuting](feedback_research_before_refuting.md) — Before calling any claim/product/fact false or fabricated, web-search it first; Jan 2026 cutoff is often just stale. Wrongly called real Claude Mythos + OpenAI Daybreak fabricated
