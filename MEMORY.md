@@ -1,5 +1,7 @@
 # Memory Index
 
+- [Deck design system (apply by default)](feedback_deck_design_system.md) — Fill the canvas (no 40-50% empty), big icon cards, hero = one meaningful number + plain sentence (no jargon, spell out acronyms), diverging charts for +/-, grouped families with divider, reconcile counts, build via generator + screenshot-verify. House template: gen_kroger_narrative_deck_v2.py. Stops the repeated per-slide fixes.
+
 - [NEVER assert compliance / attribute without reading the primary source](feedback_never_assert_compliance.md) — HARD LINE. Never claim something complies with a law/code of conduct/standard/policy, and never attribute a quote to a named person/org, unless I've read the primary doc this session. False compliance claims in signed docs are a legal/criminal risk. Scored 1/5 (asserted MRS Code conformance unread)
 - [Verify a number against the team's primary source before flagging it wrong](feedback_verify_metric_against_primary_source.md) — Don't call a figure wrong without checking the deck/report it came from + confirming it's the SAME metric (conditional vs unconditional, base, window). Wrongly flagged a correct deck-sourced 83% zero-click (Similarweb, with-AIO) as wrong vs a web 69% (overall). Mirror of never-assert-compliance.
 - [Mbriyo deployment](reference_mbriyo_deploy.md) — Repo, hosting (Vercel), git auth (SSH), deploy steps, known issues with pushing from Claude Code
