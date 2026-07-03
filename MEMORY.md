@@ -1,5 +1,7 @@
 # Memory Index
 
+- [Never use emojis, ever](feedback_never_use_emojis.md) — No emojis anywhere: UIs, diagrams, icons, decks, prose, chat. Use SVG line icons or typographic marks. House-style hard rule.
+
 - [Deck design system (apply by default)](feedback_deck_design_system.md) — Fill the canvas (no 40-50% empty), big icon cards, hero = one meaningful number + plain sentence (no jargon, spell out acronyms), diverging charts for +/-, grouped families with divider, reconcile counts, build via generator + screenshot-verify. House template: gen_kroger_narrative_deck_v2.py. Stops the repeated per-slide fixes.
 
 - [NEVER assert compliance / attribute without reading the primary source](feedback_never_assert_compliance.md) — HARD LINE. Never claim something complies with a law/code of conduct/standard/policy, and never attribute a quote to a named person/org, unless I've read the primary doc this session. False compliance claims in signed docs are a legal/criminal risk. Scored 1/5 (asserted MRS Code conformance unread)
