@@ -14,6 +14,7 @@
 - [The Pulse project status](project_pulse_status.md) — Launched 2026-03-25; decayed to Vas-only weeklies since late April; reminders + launch essay never shipped; RLS enabled on both tables 2026-06-16 (resolved)
 - [No serif fonts](feedback_no_serif.md) — Always use sans-serif in all UIs
 - [Ban the word "quiet" (all forms)](feedback_plain_headlines.md) — Never "quiet/quietly/quieter/..." anywhere, prose or headline; writing-guard now blocks `\bquiet[a-z]*\b`. Plus: plain descriptive headlines, no clever wordplay
+- [ME: no "your brand" sensational subject lines/headlines](feedback_me_no_sensational_subject.md) — Subject lines and titles state the substance plainly (name the companies/finding); never cheap "Your brand is [dramatic claim]" clickbait. Flagged "Your brand is running on ground you do not own"
 - [ME: "issue/lead", never "essay"](feedback_me_issue_not_essay.md) — Marketing Embeddings content is an issue; top piece is "the lead"/"this week's lead", never an "essay"
 - [No self-referential / competition framing](feedback_no_self_referential_competition.md) — ME prose never references its own argument ("the lead says…") or frames reality as conceding/vindicating; not a competition, not cheap journalism. State points directly about the world
 - [Creative review process](feedback_carousel_process.md) — Lead with opinionated rewrite in first pass, don't iterate incrementally; pull in Moveo positioning + ad best practices upfront
