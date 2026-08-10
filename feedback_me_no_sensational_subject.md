@@ -5,11 +5,11 @@ metadata:
   node_type: memory
   type: feedback
   originSessionId: 43c8b419-0cb8-49f7-b603-282dc2631d1e
-  modified: 2026-08-10T12:14:20.848Z
+  modified: 2026-08-10T12:34:31.163Z
 ---
 
-Marketing Embeddings subject lines and headlines must not use cheap sensationalism, especially the accusatory "Your brand is [dramatic claim]" / "you / your" hook. State the week's actual substance plainly and specifically instead.
+Marketing Embeddings subject lines and headlines must not use cheap sensationalism: dramatic, accusatory claims like "Your brand is running on ground you do not own." The problem is the sensational claim, NOT the word "your" itself. A descriptive line that happens to address the reader is fine, e.g. Vas chose "Your Brand Voice Runs on a Model That Keeps Changing" as a subject line. Also avoid framings that are technically true but boring/non-news (e.g. "marketing runs on ground it doesn't own" — marketing always has; lead on what actually changed).
 
-**Why:** It reads as clickbait and is off-brand for a professional marketer audience. Vas flagged the subject line "Your brand is running on ground you do not own" as not following guidelines, and the same applies to h1/lead titles like "Your Brand Voice Runs on a Model That Keeps Changing."
+**Why:** Sensational clickbait reads as off-brand for a professional marketer audience; boring truisms bury the news. Vas flagged "Your brand is running on ground you do not own" (too sensational) and "Marketing now runs on ground it doesn't own" (boring, always been true).
 
-**How to apply:** Prefer a plain, descriptive statement of the development, ideally naming the companies or the finding: "OpenAI, Kroger, and Time are putting ads inside AI" or "A model update can rewrite a brand's voice," not "Your brand is running on ground you don't own." Extends [[feedback_plain_headlines]] and the ME charter rule against prescriptive "Your X Should Y" titles.
+**How to apply:** Lead the subject/headline on what is genuinely new and state it concretely (name companies or the specific finding). Descriptive is good; dramatic accusation and stale truisms are not. Extends [[feedback_plain_headlines]] and the ME charter rule against prescriptive "Your X Should Y" titles.
