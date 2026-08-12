@@ -5,6 +5,7 @@ metadata:
   node_type: memory
   type: feedback
   originSessionId: e4af278f-1234-4b05-b0a9-f995e0a8c654
+  modified: 2026-08-12T13:54:13.080Z
 ---
 
 When asked to find a "story arc" or synthesize across multiple research items, news stories, or data sources, **do not force connections at all costs**. Before proposing a unified narrative, check whether the sources actually describe the same layer of the system. If they only share a topic ("AI", "marketing", "trust"), that's an umbrella, not a structural connection. Surface that explicitly when offering an arc, and offer to split into separate pieces if the connection is thin.
@@ -16,4 +17,5 @@ When asked to find a "story arc" or synthesize across multiple research items, n
 - "Both involve AI" / "both involve marketing" / "both involve trust" is an umbrella, not a connection. State this explicitly when offering.
 - When the connection is thin, propose splitting into separate pieces rather than forcing one. Give Vas the choice. He prefers two clean pieces over one stretched piece.
 - The two-essay or three-essay option is often the right call. For the Sinch + news links example, the right move was: governance theater piece using Sinch alone, consolidation piece using the news links, no forced arc.
-- Related: [[feedback_verify_claims]], [[feedback_narrative_grounding]], [[feedback_disclose_incomplete_review]]. The pattern is the same — don't let framing run ahead of evidence.
+- **Banned manufacturing phrases (2026-08-12):** never open or bridge with "three recent releases point the same way," "together they mark one shift," "the through-line is X," "all of this signals Y," "the common thread is," "different surfaces, one catch." These fabricate a thesis to make separate items feel unified; Vas called it "filling gaps and biasing your response." Now codified as rule 9 in `voice-rules-prompt.md`. When a piece needs grounding, anchor on ONE genuinely released/sourced thing and let separate items stay separate; do not invent a pattern across them.
+- Related: [[feedback_verify_claims]], [[feedback_narrative_grounding]], [[feedback_disclose_incomplete_review]], [[feedback_never_invent_unflagged]]. The pattern is the same — don't let framing run ahead of evidence.
