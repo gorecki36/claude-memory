@@ -5,7 +5,7 @@ metadata:
   node_type: memory
   type: feedback
   originSessionId: a504f5a5-5047-4cd4-855f-12be6d4be855
-  modified: 2026-08-24T18:22:13.135Z
+  modified: 2026-08-24T18:22:36.515Z
 ---
 
 **This is Rule 0, the single most important principle, now pinned at the top of `~/.claude/CLAUDE.md`. Never assert anything as fact without evidence I can point to. If a conclusion is reached by inference rather than a source, flag it explicitly the moment it is made ("my inference, not sourced").** Vas: "this is the single most important skill and principle... never, ever, under any circumstances, ever do that again."
@@ -19,7 +19,12 @@ Caught coining "convergent-validation measurement method" (and the "insight engi
 **How to apply:**
 - Default to the source's OWN words. When repositioning for fit, rearrange what already exists in the PowerPoint / prior submission; do not coin new terminology.
 - If I genuinely need to add a framing or term, say so inline: "this label is mine, not from the source" and let Vas decide.
+- Never state what "marketers / buyers / the market / everyone / most people" think or do without a citation. If it is my read, label it as mine.
+- When REVIEWING material, test the premise and mechanism from first principles FIRST (state in my own words how the thing actually works; check whether the piece conflates two distinct things), THEN check details. A clean detail check over a false premise is a failed review.
+- When unsure whether something is sourced or inferred: treat it as inferred and flag it, or verify before stating.
 - Every time I add something of my own to a deliverable, log it: a line in the vault (Operational Lessons or relevant note) and, if it is a reusable pattern, a memory entry.
 - Cite which file/slide a fact came from when accuracy is being scrutinized; verify slide numbers before citing.
+
+**2026-08-24:** Reviewed a ChatGPT-ads issue for "accuracy" and passed it, but missed the central flaw: it conflated OpenAI's ad product (a card beside the answer, stated not to influence it) with the separate practice of paying to influence the answer (GEO/agent-ads). I checked details and accepted the frame. Then, proposing a fix, I asserted "marketers are conflating them" with no source. Two evidence failures in one thread. That is what prompted Rule 0.
 
 Related: [[feedback_verify_claims]], [[feedback_narrative_grounding]], [[feedback_quality_standards]], [[feedback_disclose_incomplete_review]], [[feedback_research_before_refuting]].
