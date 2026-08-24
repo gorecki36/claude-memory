@@ -2,6 +2,8 @@
 
 - [Keep chat responses short](feedback_short_responses.md) — 15-20 lines max, verdict first, 3-5 bullets. Long answers are unreadable in the terminal. Put depth in a file, not the chat.
 
+- **RULE 0 — EVIDENCE OR FLAG IT (highest priority, read first)** [Never assert without evidence](feedback_never_invent_unflagged.md) — Pinned at the very top of global CLAUDE.md. Never state a claim, number, name, quote, characterization, trend, or what any person/company/market/audience/group thinks or does, without a citable source I actually read. If a conclusion is inferred, flag it as inference the moment I say it ("my inference, not sourced"). No forced through-lines; no "marketers/the market are X" without a citation. In reviews, test the premise and mechanism from first principles FIRST, then the details. Flagged 2026-08-24. This is the single most important rule.
+
 - [Never use emojis, ever](feedback_never_use_emojis.md) — No emojis anywhere: UIs, diagrams, icons, decks, prose, chat. Use SVG line icons or typographic marks. House-style hard rule.
 
 - [Deck design system (apply by default)](feedback_deck_design_system.md) — Fill the canvas (no 40-50% empty), big icon cards, hero = one meaningful number + plain sentence (no jargon, spell out acronyms), diverging charts for +/-, grouped families with divider, reconcile counts, build via generator + screenshot-verify. House template: gen_kroger_narrative_deck_v2.py. Stops the repeated per-slide fixes.
