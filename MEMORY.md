@@ -1,5 +1,7 @@
 # Memory Index
 
+- [Keep chat responses short](feedback_short_responses.md) — 15-20 lines max, verdict first, 3-5 bullets. Long answers are unreadable in the terminal. Put depth in a file, not the chat.
+
 - [Never use emojis, ever](feedback_never_use_emojis.md) — No emojis anywhere: UIs, diagrams, icons, decks, prose, chat. Use SVG line icons or typographic marks. House-style hard rule.
 
 - [Deck design system (apply by default)](feedback_deck_design_system.md) — Fill the canvas (no 40-50% empty), big icon cards, hero = one meaningful number + plain sentence (no jargon, spell out acronyms), diverging charts for +/-, grouped families with divider, reconcile counts, build via generator + screenshot-verify. House template: gen_kroger_narrative_deck_v2.py. Stops the repeated per-slide fixes.
