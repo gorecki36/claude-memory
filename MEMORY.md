@@ -73,3 +73,4 @@
 - [vasteams.com render smoke test](reference_vasteams_smoke_test.md) — Daily headless-browser check of all 11 pages (scripts/smoke + GH Action); enforces "pin every CDN dep to a version" rule after unpinned Babel silently blanked /ai-economics.html in prod
 
 - [deck-build skill](../../../skills/deck-build/SKILL.md) — Default deck rules now codified as a SKILL: fill the canvas, big legible type for large rooms (font floors), hero=number+sentence, native EDITABLE pptx via gen_knotch_deck.py when a PPT is wanted, HTML+PDF (with @page size) otherwise, verify before showing, content word-for-word when reformatting.
+- [Highlighted number colors its bars](feedback_highlight_number_colors_bars.md) — When a slide calls out a number (e.g. 68%), bars that make it up stay black, the rest go gray. Mean heroes exempt.
