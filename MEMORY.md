@@ -1,5 +1,7 @@
 # Memory Index
 
+- [Output contract: where things go](feedback_output_contract.md) — Simplify first. Short answers in chat; answers still over ~2/3 page become .md opened in Cursor; deliverables (report, brief, email draft, deck) become .html opened in Chrome. Always run the open command. One artifact per turn, ending with a status line.
+
 - [Keep chat responses short](feedback_short_responses.md) — 15-20 lines max, verdict first, 3-5 bullets. Long answers are unreadable in the terminal. Put depth in a file, not the chat.
 
 - **RULE 0 — EVIDENCE OR FLAG IT (highest priority, read first)** [Never assert without evidence](feedback_never_invent_unflagged.md) — Pinned at the very top of global CLAUDE.md. Never state a claim, number, name, quote, characterization, trend, or what any person/company/market/audience/group thinks or does, without a citable source I actually read. If a conclusion is inferred, flag it as inference the moment I say it ("my inference, not sourced"). No forced through-lines; no "marketers/the market are X" without a citation. In reviews, test the premise and mechanism from first principles FIRST, then the details. Flagged 2026-08-24. This is the single most important rule.
@@ -54,7 +56,7 @@
 - [Plain headlines, no "quiet"](feedback_plain_headlines.md) — Slide headlines must be plain/descriptive, never clever; the word "quiet" is banned outright
 - [Stop hook stderr rule](feedback_stop_hook_stderr.md) — Shell Stop hooks must echo blocking feedback to stderr (`>&2`), not stdout, or harness shows "[<path>]: No stderr output" noise every turn
 - [Disclose incomplete review](feedback_disclose_incomplete_review.md) — Never recommend without disclosing how many options were actually reviewed; caught recommending ESOMAR category after seeing 2 of 13
-- [Output briefs as HTML, not Markdown](feedback_output_format_html.md) — Standalone deliverable files (briefs, research notes) should be styled HTML with inline CSS. Vault notes and chat responses stay Markdown.
+- [Output briefs as HTML, not Markdown](feedback_output_format_html.md) — Standalone deliverable files (briefs, research notes) should be styled HTML with inline CSS. **Marketing Embeddings is never `.md`, always `.html`, including in-progress working notes.** Vault notes and chat responses stay Markdown.
 - [Don't force connections across sources](feedback_dont_force_connections.md) — When synthesizing news/research, "both involve AI" is not a connection. Check layer of the system before proposing an arc; offer to split into separate pieces if connection is thin.
 - [No stale "just"](feedback_no_stale_just.md) — Never use "just" with a verb unless the event actually happened in the last ~7 days. "The ruling that just made X discoverable" is wrong if the ruling was months ago.
 - [Structural fit check before adding](feedback_structural_fit_check.md) — When user asks to add an item to a section, verify it structurally fits the section's category. If not, flag the mismatch and propose an alternate location. Never bridge with half-accurate framings.

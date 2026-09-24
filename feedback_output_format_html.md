@@ -19,3 +19,15 @@ metadata:
 - **Vault notes specifically** → stay `.md` because they're consumed inside Obsidian, which renders them.
 
 When in doubt about whether a deliverable is "standalone" vs. "project-internal," ask, but default to HTML for anything in `~/Documents/{role}/research/` or `~/Documents/{role}/tasks/`.
+
+## Marketing Embeddings: never `.md`, no exceptions (2026-09-07)
+
+**For anything Marketing Embeddings, the format is always `.html`.** Not only finished deliverables. Issues, leads, briefs, source reviews, options lists and **in-progress working notes** are all HTML. The global output contract's `.md` route for long working answers does not apply to ME.
+
+**Why:** Vas said "for embeddings never do md. always do html" after I handed over a source review of this week's lead candidates as `.md` opened in Cursor. I had treated it as a working note rather than a deliverable and used the `.md` route. The distinction does not exist for ME.
+
+**How to apply:**
+- Any ME file path ends in `.html`, styled with an inline `<style>` block, sans-serif, 19px+ body, light and airy, no chip or pill labels (see [[feedback_no_chip_pills]]), no em-dashes (see [[feedback_no_em_dashes]]), no emojis (see [[feedback_never_use_emojis]]).
+- Open with `open -a "Google Chrome" <path>`, never Cursor.
+- The only exception is Obsidian vault notes under `~/Documents/Obsidian Vault/`, which stay `.md` because Obsidian renders them.
+- Written into `~/.claude/CLAUDE.md` (RULE 1 output contract) and `~/Documents/marketing-embeddings/CLAUDE.md`.
