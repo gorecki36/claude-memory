@@ -1,6 +1,6 @@
 # Memory Index
 
-- [Output contract: where things go](feedback_output_contract.md) — Simplify first. Short answers in chat; answers still over ~2/3 page become .md opened in Cursor; deliverables (report, brief, email draft, deck) become .html opened in Chrome. Always run the open command. One artifact per turn, ending with a status line.
+- [Output contract: where things go](feedback_output_contract.md) — Simplify first. Short answers in chat; anything long (incl. working drafts, story docs) becomes .html opened in Chrome, never .md (2026-10-08). Always run the open command. One artifact per turn, ending with a status line.
 
 - [Keep chat responses short](feedback_short_responses.md) — 15-20 lines max, verdict first, 3-5 bullets. Long answers are unreadable in the terminal. Put depth in a file, not the chat.
 
@@ -74,3 +74,7 @@
 
 - [deck-build skill](../../../skills/deck-build/SKILL.md) — Default deck rules now codified as a SKILL: fill the canvas, big legible type for large rooms (font floors), hero=number+sentence, native EDITABLE pptx via gen_knotch_deck.py when a PPT is wanted, HTML+PDF (with @page size) otherwise, verify before showing, content word-for-word when reformatting.
 - [Highlighted number colors its bars](feedback_highlight_number_colors_bars.md) — When a slide calls out a number (e.g. 68%), bars that make it up stay black, the rest go gray. Mean heroes exempt.
+- [Remote MCP connectors can show Connected but load no tools](reference_mcp_remote_connectors_not_loading.md) — `claude mcp list` health != tools in session. claude.ai remote connectors (SurveyMonkey, Slack, Notion, Drive...) sometimes register zero tools while local .claude.json servers load fine. /mcp and re-auth are wasted effort; restart the session. No local SurveyMonkey API token, so no curl fallback.
+- [EG poll answer key](project_eg_poll_answer_key.md) — Poll key = quiz/Market Truths - Master Question Bank.html (validated pre-launch); never rebuild from corpus. Wrong key gave 33% vs true 32% (2026-09-24).
+- [MMA brand house](reference_mma_brand_house.md) — MMA purpose/position wording: 2025 brand guidelines slide 47 (strategy/RePositioning), not the website
+- [SurveyMonkey weighted average is an index](feedback_surveymonkey_weighted_average.md) — Recompute means from counts; 0-10 scales and bucketed counts come out shifted (AI-AF entry: 9.51 really 8.5, 6 workflows really median 5)
