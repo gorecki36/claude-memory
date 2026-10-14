@@ -79,3 +79,4 @@
 - [MMA brand house](reference_mma_brand_house.md) — MMA purpose/position wording: 2025 brand guidelines slide 47 (strategy/RePositioning), not the website
 - [SurveyMonkey weighted average is an index](feedback_surveymonkey_weighted_average.md) — Recompute means from counts; 0-10 scales and bucketed counts come out shifted (AI-AF entry: 9.51 really 8.5, 6 workflows really median 5)
 - [Check what a source actually is](feedback_check_what_source_is.md) — Before citing a vault note as MMA research, confirm it's an MMA study (not a desk literature review or a charter line). Shipped AT&T '60,000+ ad tests' lit review as an MMA AI study in Greg's entry (2026-10-09).
+- [Side-insight panels only when there is a finding](feedback_side_insight_only_if_finding.md) — Subgroup side panels + appendix link only where groups really differ; "same order in every group" = skip it. No sentence restating the panel heading.
