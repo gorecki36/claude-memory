@@ -83,3 +83,4 @@
 - [Meeting transcripts live in Wispr](reference_wispr_meeting_transcripts.md) — Mbriyo/BHI Meet transcripts: ~/Library/Application Support/Wispr Flow/meetings/*/refined.ndjson; no Gemini notes in Gmail
 - [MMA positioning ways in](project_mma_positioning_onramps.md) — Five CMO ways in (FOMO, spotlight, confidence, knowledge, boldness); "confidence" = CMO standing inside their org, not confidence to buy membership (2026-10-14)
 - [Greg/Jade sales call sources](reference_greg_sales_call_sources.md) — 2023 OneDrive docx; 2025 only in MMA Fireflies ("Call: Name, Co/Greg Stuart", ~110, mixed sales+partner); 2026 Granola export in RePositioning/sales transcripts/Greg
+- [Scales run low-left/red to high-right/navy](feedback_scale_direction_low_left.md) — Every left-to-right scale (strips, axes, table columns, opinion panels): negative/low/red left, positive/high/navy right; audit the whole deck when one changes.
