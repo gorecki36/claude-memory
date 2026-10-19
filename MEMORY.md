@@ -82,3 +82,4 @@
 - [Side-insight panels only when there is a finding](feedback_side_insight_only_if_finding.md) — Subgroup side panels + appendix link only where groups really differ; "same order in every group" = skip it. No sentence restating the panel heading.
 - [Meeting transcripts live in Wispr](reference_wispr_meeting_transcripts.md) — Mbriyo/BHI Meet transcripts: ~/Library/Application Support/Wispr Flow/meetings/*/refined.ndjson; no Gemini notes in Gmail
 - [MMA positioning ways in](project_mma_positioning_onramps.md) — Five CMO ways in (FOMO, spotlight, confidence, knowledge, boldness); "confidence" = CMO standing inside their org, not confidence to buy membership (2026-10-14)
+- [Greg/Jade sales call sources](reference_greg_sales_call_sources.md) — 2023 OneDrive docx; 2025 only in MMA Fireflies ("Call: Name, Co/Greg Stuart", ~110, mixed sales+partner); 2026 Granola export in RePositioning/sales transcripts/Greg
