@@ -81,3 +81,4 @@
 - [Check what a source actually is](feedback_check_what_source_is.md) — Before citing a vault note as MMA research, confirm it's an MMA study (not a desk literature review or a charter line). Shipped AT&T '60,000+ ad tests' lit review as an MMA AI study in Greg's entry (2026-10-09).
 - [Side-insight panels only when there is a finding](feedback_side_insight_only_if_finding.md) — Subgroup side panels + appendix link only where groups really differ; "same order in every group" = skip it. No sentence restating the panel heading.
 - [Meeting transcripts live in Wispr](reference_wispr_meeting_transcripts.md) — Mbriyo/BHI Meet transcripts: ~/Library/Application Support/Wispr Flow/meetings/*/refined.ndjson; no Gemini notes in Gmail
+- [MMA positioning ways in](project_mma_positioning_onramps.md) — Five CMO ways in (FOMO, spotlight, confidence, knowledge, boldness); "confidence" = CMO standing inside their org, not confidence to buy membership (2026-10-14)
