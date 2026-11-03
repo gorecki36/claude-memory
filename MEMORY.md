@@ -85,3 +85,4 @@
 - [Greg/Jade sales call sources](reference_greg_sales_call_sources.md) — 2023 OneDrive docx; 2025 only in MMA Fireflies ("Call: Name, Co/Greg Stuart", ~110, mixed sales+partner); 2026 Granola export in RePositioning/sales transcripts/Greg
 - [Scales run low-left/red to high-right/navy](feedback_scale_direction_low_left.md) — Every left-to-right scale (strips, axes, table columns, opinion panels): negative/low/red left, positive/high/navy right; audit the whole deck when one changes.
 - [Headlines read as one story](feedback_headlines_read_as_one_story.md) — Within a chapter, headlines share subject/voice ("People..."), full parallel sentences, numbers left to the chart; align the whole chapter when editing one; keep a data check behind word claims.
+- [Never put sample size in headlines](feedback_no_sample_size_in_headlines.md) — The n ("103 senior marketers") lives only in methodology and base footnotes, never in a title, cover line or exec headline (2026-10-23).
